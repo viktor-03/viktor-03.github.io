@@ -1,0 +1,101 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background: linear-gradient(to bottom right,orange,green)
+    /*
+    display: grid;
+    grid-template-areas: 
+    "toppur toppur toppur"
+    "midja midja midja"
+    "botn botn botn"
+    
+    */
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap-4 {
+    grid-gap: 4em;
+}
+
+.toppur{
+    display: grid;
+    /* grid-area: toppur; */
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.midja{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.botn{
+    display: grid;
+    grid-area: botn;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.padding3{
+    padding: 8px;
+}
+.padding1{
+    padding: 15px;
+  
+}
+.padding2{
+    padding-bottom: 20px;
+}
+.margin1{
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.margin2{
+    margin-left: 100px;
+}
+
+
+.tx{
+    text-align: center;
+}
+
+
+.litur_midja{
+    background: linear-gradient(to left bottom,lightgreen, yellow);
+}
+
+
+.hvíturkassi{
+    background: white;
+    padding: 5px;
+}
+
+.mid{
+    text-align: center;
+}
+
