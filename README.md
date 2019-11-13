@@ -4,3 +4,4 @@
 [verkefni 3](http://viktor-03.github.io/verkefni3/verkefni3.html)
 [verkefni 4](http://viktor-03.github.io/verkefni4vef/verkefni4vef.html)
 [verkefni 4_2](https://viktor-03.github.io/verkefni4vef/verkefni4_2.html)
+[verkefni 5](https://viktor-03.github.io/verkefni5vef/verkefni5_2vef.html)
