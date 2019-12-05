@@ -1,0 +1,120 @@
+@media screen and (min-width: 0px){
+    body{
+        background: black;
+        display: grid;
+        grid-template-areas: 
+        "haus"
+        "midja"
+        "vinstri"
+        "haegri"
+        "fotur"
+        "valmynd" 
+    }
+}
+
+.hau{
+    grid-area: haus;
+}
+.mid{
+    grid-area: midja;
+}
+.vin{
+    grid-area: vinstri;
+}
+.hae{
+    grid-area: haegri;
+}
+.fot{
+    grid-area: fotur;
+}
+.val{
+    grid-area: valmynd;
+}
+
+@media screen and (min-width: 600px){
+    body{
+        background: blue;
+        display: grid;
+        grid-template-areas:
+        "haus haus haus"
+        "valmynd valmynd valmynd"
+        "vinstri vinstri vinstri"
+        "midja midja haegri"
+        "midja midja haegri"
+        "fotur fotur fotur";
+         
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background: black;
+    display: grid;
+    grid-template-areas:
+    "haus"
+    "midja"
+    "vinstri"
+    "haegri"
+    "fotur"
+    "valmynd"
+}
+.header{
+    grid-area: haus;
+}
+.navbar{
+    grid-area: valmynd;
+}
+.left{
+    grid-area: vinstri;
+}
+.main{
+    grid-area: midja;
+}
+.right{
+    grid-area: haegri;
+}
+.footer{
+    grid-area: fotur;
+}
+
+
+@media screen and (min-width: 600px){
+    body{
+        background: blue;
+        display: grid;
+        grid-template-areas:
+        "haus haus haus"
+        "valmynd valmynd valmynd"
+        "vinstri vinstri vinstri"
+        "midja midja haegri"
+        "midja midja haegri"
+        "fotur fotur fotur";  
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+        background: black;
+        display: grid;
+        grid-template-areas: 
+        "haus";
+         
+    }
+}
