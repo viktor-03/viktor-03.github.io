@@ -1,0 +1,45 @@
+body{
+    border: 2px solid blue;
+}
+
+.margin{
+    margin-left: 10px;
+}
+
+
+
+.blár{
+    color: blue;
+    text-align:center;
+}
+
+.miðja{
+    text-align: center
+}
+
+
+.dökkrauður{
+    color: rgb(95, 3, 3);
+}
+
+.rauður{
+    color: red;
+}
+
+
+.blár2{
+    color: blue;
+    margin-left: 80px;
+}
+
+.grænn{
+    color: green;
+}
+
+
+.blár3{
+    color: blue;
+    font-style: initial
+}
+
+

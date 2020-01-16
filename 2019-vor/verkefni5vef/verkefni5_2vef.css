@@ -1,0 +1,120 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background: linear-gradient(to bottom right,lightblue,lightgreen)
+}
+
+img {
+    height: 200px;
+    width: 200px;
+  }
+.litur{
+    background: yellow;
+}
+.litur2{
+    background: lightgreen;
+}
+
+.pila{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50%;
+    background: purple;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.margin1{
+
+}
+
+
+.a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: lightgreen;
+    padding: 5px 20px;
+    font-size: 12px;
+}
+a:visited{
+    text-decoration: underline;
+    color: green;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:active{
+    color: pink;
+}
+
+.topp{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background: lime;
+    text-align: center;
+}
+
+
+
+.linkaruppi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.osk{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2cm;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+
+.padding1{
+    padding: 10px;
+}
+
+
+.botn{
+    display: grid;
+    grid-area: botn;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.padding2{
+    padding-left: 520px;
+}
+.tx{
+    text-align: center;
+}

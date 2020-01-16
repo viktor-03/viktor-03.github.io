@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+
+body{
+    background-image: url("space2.jpg");
+    color: white;
+    display: grid;
+    grid-template-areas:
+    "haus"
+    "vinstri"
+    "midja"
+    "haegri"
+    "fotur"
+    "valmynd"
+}
+img{
+    height: 100px;
+    width: 80px;
+    padding: 4px;
+}
+.header{
+    grid-area: haus;
+    border: dashed blue;
+    text-align: center;
+}
+.navbar{
+    grid-area: valmynd;
+    border: dashed blue;
+}
+.left{
+    grid-area: vinstri;
+    border: dashed blue;
+}
+.main{
+    grid-area: midja;
+    border: dashed blue;
+}
+.right{
+    grid-area: haegri;
+    border: dashed blue;
+}
+.footer{
+    grid-area: fotur;
+    border: dashed blue;
+}
+.tx{
+    text-align: center;
+}
+.padd{
+    padding: 10px;
+}
+.f{
+    font-family: 'Bungee Inline', cursive;
+}
+@media screen and (min-width: 600px){
+    body{
+        background-image: url("space2.jpg");
+        color: white;
+        display: grid;
+        grid-template-areas:
+        "haus haus haus"
+        "vinstri vinstri vinstri"
+        "midja midja haegri"
+        "midja midja haegri"
+        "fotur fotur fotur"
+        "valmynd valmynd valmynd";  
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        padding: 4px;
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+        background-image: url("space2.jpg");
+        color: white;
+        display: grid;
+        grid-template-areas: 
+        "haus haus haus haus haus haus"
+        "vinstri vinstri vinstri vinstri vinstri vinstri"
+        "midja midja midja midja midja midja"
+        "haegri haegri haegri haegri haegri haegri"
+        "fotur fotur fotur fotur fotur fotur"
+        "valmynd valmynd valmynd valmynd valmynd valmynd";
+    }
+    img{
+        height: 300px;
+        width: 300px;
+        padding: 4px;
+    }
+}
